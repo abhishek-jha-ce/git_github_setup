@@ -85,26 +85,25 @@
 # the same type. Extend the capture further to grab details such as address (ensuring that a house number is correctly
 # represented, hobbies, etc. and respond to the user the details they have provided.
 
-first_name = input("Enter your first name: ")
-last_name = input("Enter your last name: ")
-address = input("Enter your address: ")
-dob = input("Enter you Date of Birth: ")
-course_name = input("Enrolled Course Name: ")
-is_resident = input("Are you a UK resident: ")
-
-address_list = address.split(" ")
-house_no = address_list[0]
-# street_address = address_list[1 : -2]
-post_code = address_list[-2] + " " + address_list[-1]
-
-#house_no = address.split(" ")[0];
-#post_code = address.split(" ")[-2] + " " + address.split(" ")[-1]
-print(f"Hello {first_name} {last_name}.")
-print(f"Your House Number is: {house_no}")
-# print(f"Your Street Address is: {street_address}")
-print(f"Your post code is {post_code}")
-print("Your Date of Birth is: " + dob) # Another way of printing
-print("You Are Enrolled in " + course_name + " and you have to be a " + is_resident)
-
+# first_name = input("Enter your first name: ")
+# last_name = input("Enter your last name: ")
+# address = input("Enter your address: ")
+# dob = input("Enter you Date of Birth: ")
+# course_name = input("Enrolled Course Name: ")
+# is_resident = input("Are you a UK resident: ")
+#
+# address_list = address.split(" ")
+# house_no = address_list[0]
+# # street_address = address_list[1 : -2]
+# post_code = address_list[-2] + " " + address_list[-1]
+#
+# #house_no = address.split(" ")[0];
+# #post_code = address.split(" ")[-2] + " " + address.split(" ")[-1]
+# print(f"Hello {first_name} {last_name}.")
+# print(f"Your House Number is: {house_no}")
+# # print(f"Your Street Address is: {street_address}")
+# print(f"Your post code is {post_code}")
+# print("Your Date of Birth is: " + dob) # Another way of printing
+# print("You Are Enrolled in " + course_name + " and you have to be a " + is_resident)
 
 
