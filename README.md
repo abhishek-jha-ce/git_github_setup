@@ -21,6 +21,7 @@ print()
 - to pull changes from Git-hub `git pull`
 
 ### Git Help
+```
 usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
            [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
            [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
@@ -61,4 +62,27 @@ collaborate (see also: git help workflows)
    fetch     Download objects and refs from another repository
    pull      Fetch from and integrate with another repository or a local branch
    push      Update remote refs along with associated objects
+```
+## Python
 
+### Intro to Data types & Operators
+# - `+` `-` `*` `/`
+
+## Comparison Operators
+- `>` greater than
+- `<` less than
+- `==` True or False
+- `>=` greater than or equal
+- `<=` less than or equal
+
+```
+a = 24
+b = 16
+
+print(a+b) # outcome added value of a & b
+print(a-b) # outcome substraction value of a & b
+
+# Comparison
+print(a>b) # True
+print(a<b) # False
+```
